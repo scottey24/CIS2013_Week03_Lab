@@ -11,7 +11,7 @@ int main(){
 	int num2 = 0;
 	cout<< " Our C++ Calculator\n";
 	
-	while('N' != again){
+	do{
 		cout << "(A)dd,(S)ubtract,(M)ultiply";
 		cin >> op;	
 
